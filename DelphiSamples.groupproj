@@ -1,0 +1,216 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{ADE32A2C-4335-415C-8201-C65D0E25AB8A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="code\ActionSheet\ActionSheet.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="code\AndroidCalendarManager\AndroidCalendarManager.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="code\Base64Converter\Base64Converter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="code\BaseProjectApp\project\BaseProjectApp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="code\BitmapFromUrl\BitmapFromURL.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="code\ColorMoveAnimation\ColorMoveAnimation.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="code\ComboAutoComplete\project\ComboAutoComplete.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="code\DropDownMenu\DropDownMenu.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="code\DynamicListGrid\DynamicListGrid.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="code\ProgressCircle\ProgressCircle.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="code\ShellExecute\ShellExecute.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="code\WhatsAppShare\WhatsAppShare.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="code\WifiStatusBar\WifiStatusBar.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="code\WordStructureView\project\WordStructureView.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="code\Workflow\project\WorkFlow.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="code\FloatingButton\FloatingButton.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ActionSheet">
+        <MSBuild Projects="code\ActionSheet\ActionSheet.dproj"/>
+    </Target>
+    <Target Name="ActionSheet:Clean">
+        <MSBuild Projects="code\ActionSheet\ActionSheet.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ActionSheet:Make">
+        <MSBuild Projects="code\ActionSheet\ActionSheet.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AndroidCalendarManager">
+        <MSBuild Projects="code\AndroidCalendarManager\AndroidCalendarManager.dproj"/>
+    </Target>
+    <Target Name="AndroidCalendarManager:Clean">
+        <MSBuild Projects="code\AndroidCalendarManager\AndroidCalendarManager.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AndroidCalendarManager:Make">
+        <MSBuild Projects="code\AndroidCalendarManager\AndroidCalendarManager.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Base64Converter">
+        <MSBuild Projects="code\Base64Converter\Base64Converter.dproj"/>
+    </Target>
+    <Target Name="Base64Converter:Clean">
+        <MSBuild Projects="code\Base64Converter\Base64Converter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Base64Converter:Make">
+        <MSBuild Projects="code\Base64Converter\Base64Converter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BaseProjectApp">
+        <MSBuild Projects="code\BaseProjectApp\project\BaseProjectApp.dproj"/>
+    </Target>
+    <Target Name="BaseProjectApp:Clean">
+        <MSBuild Projects="code\BaseProjectApp\project\BaseProjectApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BaseProjectApp:Make">
+        <MSBuild Projects="code\BaseProjectApp\project\BaseProjectApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BitmapFromURL">
+        <MSBuild Projects="code\BitmapFromUrl\BitmapFromURL.dproj"/>
+    </Target>
+    <Target Name="BitmapFromURL:Clean">
+        <MSBuild Projects="code\BitmapFromUrl\BitmapFromURL.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BitmapFromURL:Make">
+        <MSBuild Projects="code\BitmapFromUrl\BitmapFromURL.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ColorMoveAnimation">
+        <MSBuild Projects="code\ColorMoveAnimation\ColorMoveAnimation.dproj"/>
+    </Target>
+    <Target Name="ColorMoveAnimation:Clean">
+        <MSBuild Projects="code\ColorMoveAnimation\ColorMoveAnimation.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ColorMoveAnimation:Make">
+        <MSBuild Projects="code\ColorMoveAnimation\ColorMoveAnimation.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ComboAutoComplete">
+        <MSBuild Projects="code\ComboAutoComplete\project\ComboAutoComplete.dproj"/>
+    </Target>
+    <Target Name="ComboAutoComplete:Clean">
+        <MSBuild Projects="code\ComboAutoComplete\project\ComboAutoComplete.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ComboAutoComplete:Make">
+        <MSBuild Projects="code\ComboAutoComplete\project\ComboAutoComplete.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DropDownMenu">
+        <MSBuild Projects="code\DropDownMenu\DropDownMenu.dproj"/>
+    </Target>
+    <Target Name="DropDownMenu:Clean">
+        <MSBuild Projects="code\DropDownMenu\DropDownMenu.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DropDownMenu:Make">
+        <MSBuild Projects="code\DropDownMenu\DropDownMenu.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DynamicListGrid">
+        <MSBuild Projects="code\DynamicListGrid\DynamicListGrid.dproj"/>
+    </Target>
+    <Target Name="DynamicListGrid:Clean">
+        <MSBuild Projects="code\DynamicListGrid\DynamicListGrid.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DynamicListGrid:Make">
+        <MSBuild Projects="code\DynamicListGrid\DynamicListGrid.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ProgressCircle">
+        <MSBuild Projects="code\ProgressCircle\ProgressCircle.dproj"/>
+    </Target>
+    <Target Name="ProgressCircle:Clean">
+        <MSBuild Projects="code\ProgressCircle\ProgressCircle.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ProgressCircle:Make">
+        <MSBuild Projects="code\ProgressCircle\ProgressCircle.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ShellExecute">
+        <MSBuild Projects="code\ShellExecute\ShellExecute.dproj"/>
+    </Target>
+    <Target Name="ShellExecute:Clean">
+        <MSBuild Projects="code\ShellExecute\ShellExecute.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ShellExecute:Make">
+        <MSBuild Projects="code\ShellExecute\ShellExecute.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="WhatsAppShare">
+        <MSBuild Projects="code\WhatsAppShare\WhatsAppShare.dproj"/>
+    </Target>
+    <Target Name="WhatsAppShare:Clean">
+        <MSBuild Projects="code\WhatsAppShare\WhatsAppShare.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WhatsAppShare:Make">
+        <MSBuild Projects="code\WhatsAppShare\WhatsAppShare.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="WifiStatusBar">
+        <MSBuild Projects="code\WifiStatusBar\WifiStatusBar.dproj"/>
+    </Target>
+    <Target Name="WifiStatusBar:Clean">
+        <MSBuild Projects="code\WifiStatusBar\WifiStatusBar.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WifiStatusBar:Make">
+        <MSBuild Projects="code\WifiStatusBar\WifiStatusBar.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="WordStructureView">
+        <MSBuild Projects="code\WordStructureView\project\WordStructureView.dproj"/>
+    </Target>
+    <Target Name="WordStructureView:Clean">
+        <MSBuild Projects="code\WordStructureView\project\WordStructureView.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WordStructureView:Make">
+        <MSBuild Projects="code\WordStructureView\project\WordStructureView.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="WorkFlow">
+        <MSBuild Projects="code\Workflow\project\WorkFlow.dproj"/>
+    </Target>
+    <Target Name="WorkFlow:Clean">
+        <MSBuild Projects="code\Workflow\project\WorkFlow.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WorkFlow:Make">
+        <MSBuild Projects="code\Workflow\project\WorkFlow.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FloatingButton">
+        <MSBuild Projects="code\FloatingButton\FloatingButton.dproj"/>
+    </Target>
+    <Target Name="FloatingButton:Clean">
+        <MSBuild Projects="code\FloatingButton\FloatingButton.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FloatingButton:Make">
+        <MSBuild Projects="code\FloatingButton\FloatingButton.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ActionSheet;AndroidCalendarManager;Base64Converter;BaseProjectApp;BitmapFromURL;ColorMoveAnimation;ComboAutoComplete;DropDownMenu;DynamicListGrid;ProgressCircle;ShellExecute;WhatsAppShare;WifiStatusBar;WordStructureView;WorkFlow;FloatingButton"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ActionSheet:Clean;AndroidCalendarManager:Clean;Base64Converter:Clean;BaseProjectApp:Clean;BitmapFromURL:Clean;ColorMoveAnimation:Clean;ComboAutoComplete:Clean;DropDownMenu:Clean;DynamicListGrid:Clean;ProgressCircle:Clean;ShellExecute:Clean;WhatsAppShare:Clean;WifiStatusBar:Clean;WordStructureView:Clean;WorkFlow:Clean;FloatingButton:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ActionSheet:Make;AndroidCalendarManager:Make;Base64Converter:Make;BaseProjectApp:Make;BitmapFromURL:Make;ColorMoveAnimation:Make;ComboAutoComplete:Make;DropDownMenu:Make;DynamicListGrid:Make;ProgressCircle:Make;ShellExecute:Make;WhatsAppShare:Make;WifiStatusBar:Make;WordStructureView:Make;WorkFlow:Make;FloatingButton:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
